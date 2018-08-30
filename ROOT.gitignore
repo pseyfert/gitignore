@@ -121,6 +121,10 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# IPython
+profile_default/
+ipython_config.py
+
 # pyenv
 .python-version
 
@@ -151,3 +155,16 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.dmypy.json
+dmypy.json
+
+# CMake files
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+# Makefile # left out, might still be useful for make based projects
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
